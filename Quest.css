@@ -1,0 +1,90 @@
+body{
+    font-family: sans-serif;
+    color: #070707;
+    margin: auto;
+}
+.logo h1{
+    display: flex;
+    
+}
+header{
+    background-color: #fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.docplanner-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+.docplanner-header h1{
+    margin: 0px;
+}
+a{
+    color: #252525;;
+    text-decoration: none;
+    padding: 0 0.6em;
+}
+.active{
+    color: #010101;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 h1{
+    color: blue;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: blue;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius:30px;
+    transition: background 0.5s;
+}
+.btn1{
+    display: inline-block;
+    background: #fff;
+    color: #563434;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius:30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background:radial-gradient(#fff) ;
+}
+.header .row{
+    margin-top: 70px;
+}
+.categories{
+    margin: 70px 0;
+}
